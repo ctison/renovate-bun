@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "bun-types": "1.0.11"
+  },
+  "packageManager": "bun@1.0.11"
+}
