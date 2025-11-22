@@ -20,7 +20,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Check versions
         run: |
           jq -e '(.packageManager|split("@")|.[1]) == (.devDependencies["bun-types"])' package.json
